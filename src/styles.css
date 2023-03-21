@@ -1,0 +1,92 @@
+body {
+  font-family: sans-serif;
+}
+.card {
+  margin: 0 auto;
+  width: 700px;
+}
+.search-enter {
+  background: #0b5ed7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 22px;
+  position: relative;
+  right: -20px;
+  top: 0px;
+  line-height: 38px;
+  width: 100px;
+}
+.current-enter {
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 22px;
+  position: relative;
+  right: -20px;
+  top: 0px;
+  line-height: 38px;
+  width: 100px;
+  padding: 3px;
+}
+.city {
+  width: 200px;
+}
+.city-name {
+  color: #7c7c7c;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin: 0;
+  padding: 0;
+}
+li {
+  color: #7c7c7c;
+  font-size: 16px;
+  font-weight: 100px;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+  position: relative;
+  right: 0px;
+  bottom: -20px;
+}
+.icon {
+  height: 64px;
+  width: 64px;
+}
+
+.temp {
+  display: inline;
+  position: relative;
+  right: -70px;
+  font-size: 60px;
+  top: -80px;
+}
+
+.celcius {
+  display: inline;
+  font-size: 20px;
+  font-weight: 450;
+  position: relative;
+  top: -110px;
+  right: -70px;
+}
+
+.fahrenheit {
+  display: inline;
+  font-size: 20px;
+  font-weight: 450;
+  position: relative;
+  top: -30px;
+  padding: 0;
+  color: blue;
+  top: -110px;
+  right: -70px;
+}
+
+.weather {
+  display: inline;
+  right: -300;
+}

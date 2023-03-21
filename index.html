@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <div class="Container">
+      <div id="app"></div>
+      <div class="card">
+        <div class="card-body">
+          <div class="input-group mb-3">
+            <form id="search-city">
+            <div class="row">
+            <div class="col-6">
+            <input
+              type="city"
+              id = "search-text-input"
+              class="form-control city"
+              placeholder="Type a city..."
+              size = "500">
+              </div>
+            <div class="col-3">
+           <input 
+            type="submit" 
+            value="search" 
+            class="search-enter">
+            </div>
+            <div class="col-3">
+            <button
+            class="current-enter">current</button>
+            </div>
+            <br/>
+
+            </form> 
+       
+          <br/>
+          <br/>
+          <br/>
+          <h1 class="card-subtitle mb-2 text-muted city-name">
+            Sydney NSW, Austrailia
+          </h1>
+          <ul>
+            <li id = "todayDate">Wednesday 22:00</li>
+            <li id = "current-weather">Partly Cloudy</li>
+          </ul>
+          <p>
+            <div class="row">
+            <div class="col-6">
+            <h1>
+              <img src="images/cloudy.png" alt="" class="icon" />
+              <h1 class="temp" id="actual-temp">19</h1> 
+            <p href="#" class="celcius" id = "celsius-link">°C </p>
+            
+            </div>
+            <div class="col-6 weather">
+             <ul>
+                
+                <li id = "humid">Humidity : 77%</li>
+                <li id = "wind">Wind:8km/h</li>
+              </ul>
+          </div>
+        </div>
+          </h1>
+            
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
